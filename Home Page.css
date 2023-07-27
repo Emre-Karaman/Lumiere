@@ -1,0 +1,97 @@
+/* creating proper margins and padding*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Font size for body*/
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* header width + height and the background image */
+header {
+  width: 30%;
+  height: 30%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Font size for title*/
+.title {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+
+/* position of the navigation bar*/
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+/* Navigation bar styles and background fonts etc*/
+nav ul {
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* styling for the image and paragraph*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 100px auto;
+  width: 75%;
+}
+
+.container h1 {
+  move-up: 370px;
+}
+img {
+  max-width: 350px;
+  float: left;
+  border-radius: 30px;
+  border: 3px solid blue;
+  margin-right: 20pxl;
+}
+
+.text h2 {
+  font-size: 40px;
+  pad: 10px;
+}
+.text p {
+  font-size: 22px;
+}

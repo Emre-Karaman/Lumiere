@@ -1,0 +1,44 @@
+<head>
+  <link rel="stylesheet" href="Recipies.css" />
+</head>
+
+<body>
+  <title>HomeMade Turkish Recipies</title>
+  <div class="navbar">
+    <header>
+      <nav>
+        <div class="menu">
+          <ul>
+            <li><a href="">Breakfast</a></li>
+            <li><a href="">Lunch</a></li>
+            <li><a href="">Dinner</a></li>
+            <li><a href="">Dessert</a></li>
+            <li><a href="">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <!---->
+  <div class="title">
+    <header>
+      <h1>
+        <strong> Turkish Recipies by Turkish Mothers </strong>
+      </h1>
+    </header>
+  </div>
+  <!--supposed to give navbar a background while scrolling to make it clear -->
+  <script>
+    src = "https://code.jquery.com/jquery-3.7.0.js";
+  </script>
+  <script>
+    $(window).scroll(function () {});
+    {
+      if ($(window).scrollTop()) {
+        $("navbar").addClass("black");
+      } else {
+        $("navbar").removeClass("black");
+      }
+    }
+  </script>
+</body>
